@@ -38,6 +38,11 @@ export default new Router({
       path:'/1.2',
       name:'1.2',
       component: resolve => require(['@/components/1.2/index.vue'], resolve)
+    },
+    {
+      path:'/brother',
+      name:'brother',
+      component: resolve => require(['@/components/brother/CCC.vue'], resolve)
     }
   ]
 })
